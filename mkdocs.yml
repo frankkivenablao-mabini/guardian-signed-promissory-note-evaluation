@@ -1,0 +1,48 @@
+site_name: Evaluation of a Guardian-Signed Electronic Promissory Note Workflow at Mabini Colleges, Inc.
+site_description: Study B at Mabini Colleges, Inc. — proposed implementation evaluation; no completed findings.
+repo_url: https://github.com/frankkivenablao-mabini/guardian-signed-promissory-note-evaluation
+theme:
+  name: material
+  features:
+    - navigation.sections
+    - navigation.top
+    - content.code.copy
+markdown_extensions:
+  - toc:
+      permalink: true
+      toc_depth: 3
+  - admonition
+  - tables
+  - footnotes
+  - def_list
+  - attr_list
+nav:
+  - Home: index.md
+  - Study Split: study-split.md
+  - Roadmap: roadmap.md
+  - Draft Protocol: protocol.md
+  - Artifact Readiness: artifact/readiness.md
+  - Title Page: title-page.md
+  - Abstract: abstract.md
+  - Introduction:
+      - Background: introduction/background.md
+      - Research Questions: introduction/research-questions.md
+      - Significance: introduction/significance.md
+  - Methods:
+      - Research Design: methods/research-design.md
+      - Participants and Data: methods/participants-and-data.md
+      - Data Collection: methods/data-collection.md
+      - Measurement Plan: methods/measurement-plan.md
+      - Data Analysis: methods/data-analysis.md
+  - Results:
+      - Findings: results/findings.md
+      - Tables and Figures: results/tables-and-figures.md
+  - Discussion:
+      - Interpretation: discussion/interpretation.md
+      - Limitations: discussion/limitations.md
+      - Recommendations: discussion/recommendations.md
+  - Conclusion: conclusion.md
+  - References: references.md
+  - Appendices:
+      - Draft Instruments: appendices/questionnaire.md
+      - Evidence Plan: appendices/supplementary-data.md
